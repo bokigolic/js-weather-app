@@ -11,3 +11,36 @@ body{
   background-size: cover;
   background-position: top center;
 }
+
+.app-wrap{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient((to bottom rgba(0,0,0,0.3), rgba(0,0,0,0.6)));
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input{
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(124, 117, 125, 0.3);
+  border-radius: 25px 0px 25px 0px;
+  border-bottom: 3px solid #DF8E00;
+  color: #313131;
+  font-size: 25px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus{
+  background-color: rgba(255, 255, 255, 0.6);
+}
