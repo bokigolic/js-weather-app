@@ -7,7 +7,7 @@
 body{
   
   font-family: "montserrat", sans-serif;
-  background-image: url('./img/backgroung.jpg');
+  background-image: url('./img/111.jpg');
   background-size: cover;
   background-position: top center;
 }
@@ -16,31 +16,60 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: linear-gradient((to bottom rgba(0,0,0,0.3), rgba(0,0,0,0.6)));
+  background-image: linear-gradient((to bottom #8819194d, rgba(0,0,0,0.6)));
 }
 
 header{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 15px 15px;
+  padding: 80px 15px 15px;
 }
 
 header input{
   width: 100%;
-  max-width: 280px;
+  max-width: 200px;
   padding: 10px 15px;
   border: none;
   outline: none;
-  background-color: rgba(124, 117, 125, 0.3);
+  background-color: rgb(239, 244, 249);
   border-radius: 25px 0px 25px 0px;
-  border-bottom: 3px solid #DF8E00;
-  color: #313131;
+  border-bottom: 3px solid #ad2705;
+  color: #140202;
   font-size: 25px;
   font-weight: 300;
   transition: 0.2s ease-out;
 }
 
 header input:focus{
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(235, 27, 27, 0.6);
+}
+
+main{
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.location .city{
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.location .date{
+  color: #FFF;
+  font-size: 20px;
+
+}
+
+.current .temp{
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 5px 10px rgba(0,0,0,0.8);
+
 }
